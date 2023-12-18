@@ -1,0 +1,1 @@
+SELECT LENGTH(first_name) FROM customer
