@@ -1,0 +1,6 @@
+--INSERT INTO new_info(title)
+--VALUES 
+--('some new title')
+ALTER TABLE new_info 
+ALTER COLUMN people DROP NOT NULL -- IF YOU WANT TO INSTEAD CREATE A CONSTRAINT - GO SET - AND ADD CONSTRAINT 
+
