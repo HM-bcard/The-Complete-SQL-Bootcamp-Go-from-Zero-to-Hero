@@ -1,0 +1,6 @@
+SELECT 
+CASE rental_rate
+	WHEN 0.99 THEN 1
+	ELSE 0
+END
+FROM film
